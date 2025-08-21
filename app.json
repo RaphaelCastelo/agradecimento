@@ -1,10 +1,9 @@
 {
   "expo": {
-    "name": "R5PRACASAR",
-    "slug": "r5pracasar",
+    "name": "agradecimento",
+    "slug": "agradecimento",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/agradecimento.jpeg",
 
     "splash": {
       "image": "./assets/agradecimento.jpeg",
@@ -12,13 +11,15 @@
       "backgroundColor": "#ffffff"
     },
 
-    "assetBundlePatterns": ["**/*"],
-
-    "ios": { "supportsTablet": true },
-
     "android": {
-      "package": "com.raphaelcastelo.r5pracasar",
-      "versionCode": 1
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/agradecimento.jpeg",
+        "backgroundColor": "#ffffff"
+      }
+    },
+
+    "web": {
+      "favicon": "./assets/agradecimento.jpeg"
     }
   }
 }
