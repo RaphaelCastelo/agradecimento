@@ -6,7 +6,7 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <View style={styles.content}>
         <Image
-          source={require("./agradecimento.jpeg")
+          source={require("./assets/agradecimento.jpeg")}
 }
           style={styles.image}
           resizeMode="cover"
