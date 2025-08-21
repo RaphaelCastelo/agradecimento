@@ -1,34 +1,19 @@
 {
   "expo": {
-    "name": "agradecimento",
+    "name": "R5PRACASAR",
     "slug": "agradecimento",
     "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
 
-    "icon": "./assets/agradecimento.jpeg",
-
-    "splash": {
-      "image": "./assets/agradecimento.jpeg",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+    "ios": {
+      "supportsTablet": true
     },
 
     "android": {
-      "package": "com.r5pracasar.agradecimento",
-      "versionCode": 1,
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/agradecimento.jpeg",
-        "backgroundColor": "#ffffff"
-      }
+      "package": "com.raphaelcastelo.r5pracasar"
     },
 
-    "web": {
-      "favicon": "./assets/agradecimento.jpeg"
-    }
-  }
-}
-
-    "web": {
-      "favicon": "./assets/agradecimento.jpeg"
-    }
+    "web": {}
   }
 }
