@@ -6,31 +6,19 @@
     "orientation": "portrait",
     "userInterfaceStyle": "light",
 
-    "icon": "./assets/icon.png",
-
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/agradecimento.jpeg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
 
     "assetBundlePatterns": ["**/*"],
 
-    "ios": {
-      "supportsTablet": true
-    },
+    "ios": { "supportsTablet": true },
 
     "android": {
       "package": "com.raphaelcastelo.r5pracasar",
-      "versionCode": 1,
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
-
-    "web": {
-      "favicon": "./assets/favicon.png"
+      "versionCode": 1
     }
   }
 }
