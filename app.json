@@ -7,13 +7,20 @@
     "userInterfaceStyle": "light",
 
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.raphaelcastelo.r5pracasar"
     },
 
     "android": {
       "package": "com.raphaelcastelo.r5pracasar"
     },
 
-    "web": {}
+    "web": {},
+
+    "extra": {
+      "eas": {
+        "projectId": "COLE_SEU_PROJECT_ID_AQUI"
+      }
+    }
   }
 }
